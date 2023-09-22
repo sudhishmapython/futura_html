@@ -1,0 +1,23 @@
+.brand {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding-left: 42px;
+    background: radial-gradient(circle, rgb(19, 207, 70), rgb(67, 203, 25) 50%, transparent 50%) no-repeat 0 50%;
+    background-size: 42px 42px;
+  }
+  
+  .name {
+    color: rgb(9, 244, 91);
+  }
+ 
+ .first{
+  width: 100%;
+  height:70px;
+  background-color:rgb(227, 239, 209);
+  display: flex;
+ }
+ 
+ 

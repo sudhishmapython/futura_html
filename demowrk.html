@@ -16,18 +16,20 @@ Python is dynamically typed and garbage-collected.
 --------------------------------------------
 <h2>var element,base tag and object tag</h2>
 <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.
-Base tag-->
+
+  <!-- Base tag -->
+
 <a href="tags/tag_base.asp">search here</a></p><br>
 <object height="250" width="500" data="https://www.youtube.com/embed/O5hShUO6wxs"></object><br>
 --------------------------------------------
 <h4>Form</h4>
 <form>
-    <fieldset>
+    <fieldset style="width: 0px;">
         <legend>Customer Details</legend>
         <label for="name">Name</label>
         <input type="text" name="name"><br><br>
         <label for="age">Age</label>
-        <input type="text" name="age"><br>
+        <input type="radio" name="age"><br>
         <label for="place">Place: </label>
         <select>
 	<option>Kannur</option><br>
@@ -78,8 +80,10 @@ Places
 
 <h2>HTML Iframes</h2>
 <p>You can use the height and width attributes to specify the size of the iframe:</p>
+<!-- <iframe src='table.html' width="420" height="345"></iframe> -->
 
-
+<iframe src="table.html" title="W3Schools Free Online Web Tutorials">
+</iframe>
 
 </body>
 </html>
