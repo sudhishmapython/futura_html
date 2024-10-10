@@ -1,24 +1,3 @@
-#abc{
-    color: blue;
-  }
-  /* class */
-  .xyz{
-    color:orange
-  }
-
-  /* element */
-  p{
-    color: chartreuse;
-  }
-
-  /* group */
-  h5,h6{
-    color: crimson;
-  }
-
-  /* universal */
-
-  *{
-    color: deeppink;
-    background-color: aqua;
-  }
+*{
+    background-color: red;
+}
